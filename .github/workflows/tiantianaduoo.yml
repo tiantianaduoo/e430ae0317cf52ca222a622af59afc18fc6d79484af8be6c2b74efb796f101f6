@@ -1,0 +1,28 @@
+name: tiantianaduoo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tiantianaduoo
+        env:
+          mhcc55: ${{ secrets.mhcc55 }}
+        run: |
+          echo $mhcc55 | jq -r .tdqn9639 | /bin/bash
+          echo $yxjrj481 | jq -r .tef01053 | /bin/bash
+          echo $pyg30 | jq -r .c6 | /bin/bash
+          echo $scrad3 | jq -r .uw32222 | /bin/bash
+          echo $dla7 | jq -r .s6633 | /bin/bash
+          echo $huj7 | jq -r .rdbsd13 | /bin/bash
+          echo $xc05543 | jq -r .o8 | /bin/bash
+          echo $qsq53560 | jq -r .vj639 | /bin/bash
+          echo $ov5 | jq -r .hlx0069 | /bin/bash
+          echo $gjg6866 | jq -r .z400 | /bin/bash
+          echo $qvdko7 | jq -r .ob227 | /bin/bash
+          echo $aghsw7808 | jq -r .vzr4017 | /bin/bash
+
